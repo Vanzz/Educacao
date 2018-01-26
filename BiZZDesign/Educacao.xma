@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate3.0" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:Connection="http://www.bizzdesign.com/metamodels/Connection" xmlns:DMN="http://www.bizzdesign.com/metamodels/DMN" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:META="http://www.bizzdesign.com/metamodels/META" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM" xmlns:UML="http://www.bizzdesign.com/metamodels/UML">
+<MM_StorageUnit>
+<MM_ModelPackage:MM_ModelPackage id="0">
+<nm>lab6m2\administrador's Model package 1</nm>
+<MM_ModelPackage:MM_Folders name="folders" id="75"/>
+<MM_ModelPackage:MM_Models name="models" id="1">
+<ArchiMate:ArchiMateMM_Model id="2">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view</MM_Value>
+</MM_ProfileValues>
+<MM_ModelPackage:MM_Modules name="modules" id="3">
+<MM_ModelPackage:MM_Module id="24" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="25">
+<MM_Diagram:MM_Node name="mm_canvas" id="26" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="22">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="79">
+<MM_Diagram:MM_Node id="80" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="81">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="82">
+<MM_Diagram:MM_Decoration id="83" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="84" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="85" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="86">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="87">
+<MM_Diagram:MM_Decoration id="88" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="89" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1120" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="90" mm_from="80" mm_to="85" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessRoleBusinessRoleTriggering" mm_semanticObject="91"/>
+<MM_Diagram:MM_Node id="92" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="93">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="94">
+<MM_Diagram:MM_Decoration id="95" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="96" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="97" mm_from="85" mm_to="92" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessRoleBusinessFunctionFlow" mm_semanticObject="98"/>
+<MM_Diagram:MM_Node id="99" mm_graphicType="5" mm_concept="RSControlMeasure" mm_semanticObject="100">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="101">
+<MM_Diagram:MM_Decoration id="102" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="103" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2120" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="104" mm_from="92" mm_to="99" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessFunctionMotivationRequirementInfluence" mm_semanticObject="105"/>
+<MM_Diagram:MM_Node id="106" mm_graphicType="5" mm_concept="BusinessInterface" mm_semanticObject="107">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="108">
+<MM_Diagram:MM_Decoration id="109" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="110" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="111" mm_from="106" mm_to="99" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessInterfaceMotivationRequirementInfluence" mm_semanticObject="112"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="22"/></Any>
+</MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="4" nm="SemanticModule" metaModel="ArchiMate">
+<ArchiMate:ArchiMateComponent name="root" id="5">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:DomainDataSet name="domainDataSet" id="6"/>
+<ArchiMate:AbstractCommandContainers name="commandContainers" id="7"/>
+<ArchiMate:AbstractSchemes name="schemes" id="8">
+<ArchiMate:BusinessScheme id="9">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessObjects name="objects" id="38"/>
+<ArchiMate:BusinessProcesses name="processes" id="34"/>
+<ArchiMate:BusinessServices name="services" id="36"/>
+<ArchiMate:BusinessInterfaces name="interfaces" id="32">
+<ArchiMate:BusinessInterface id="113">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business interface</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessInterface>
+</ArchiMate:BusinessInterfaces>
+<ArchiMate:BusinessFunctions name="functions" id="33">
+<ArchiMate:BusinessFunction id="114">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business function</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+</ArchiMate:BusinessFunctions>
+<ArchiMate:BusinessEvents name="events" id="37"/>
+<ArchiMate:BusinessProducts name="products" id="40"/>
+<ArchiMate:BusinessActors name="actors" id="30"/>
+<ArchiMate:BusinessInteractions name="interactions" id="35"/>
+<ArchiMate:BusinessRoles name="roles" id="31">
+<ArchiMate:BusinessRole id="115">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business role (2)</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="116">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business role</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+</ArchiMate:BusinessRoles>
+<ArchiMate:BusinessRepresentations name="representations" id="39"/>
+<ArchiMate:Relations name="relations" id="117">
+<ArchiMate:BusinessFunctionMotivationRequirementInfluence id="118" from="114" to="119"/>
+<ArchiMate:BusinessInterfaceMotivationRequirementInfluence id="120" from="113" to="119"/>
+<ArchiMate:BusinessRoleBusinessFunctionFlow id="121" from="115" to="114"/>
+<ArchiMate:BusinessRoleBusinessRoleTriggering id="122" from="116" to="115"/>
+</ArchiMate:Relations>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:BusinessScheme>
+<ArchiMate:ApplicationScheme id="10">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Application layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:ApplicationComponents name="components" id="41"/>
+<ArchiMate:ApplicationInteractions name="interactions" id="46"/>
+<ArchiMate:ApplicationFunctions name="functions" id="45"/>
+<ArchiMate:ApplicationEvents name="events" id="47"/>
+<ArchiMate:ApplicationProcesses name="processes" id="44"/>
+<ArchiMate:ApplicationServices name="services" id="43"/>
+<ArchiMate:ApplicationInterfaces name="interfaces" id="42"/>
+<ArchiMate:ApplicationDataObjects name="dataObjects" id="48"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:ApplicationScheme>
+<ArchiMate:TechnologyScheme id="11">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Technology layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:TechnologyArtifacts name="artifacts" id="52"/>
+<ArchiMate:TechnologyNodes name="nodes" id="51"/>
+<ArchiMate:TechnologyPaths name="paths" id="50"/>
+<ArchiMate:TechnologyInteractions name="interactions" id="58"/>
+<ArchiMate:TechnologyInterfaces name="interfaces" id="53"/>
+<ArchiMate:TechnologyFunctions name="functions" id="56"/>
+<ArchiMate:TechnologyCommunicationNetworks name="networks" id="49"/>
+<ArchiMate:TechnologyProcesses name="processes" id="57"/>
+<ArchiMate:TechnologyEvents name="events" id="55"/>
+<ArchiMate:TechnologyServices name="services" id="54"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:TechnologyScheme>
+<ArchiMate:PhysicalScheme id="12">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Physical elements</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:PhysicalEquipments name="equipments" id="62"/>
+<ArchiMate:PhysicalMaterials name="materials" id="61"/>
+<ArchiMate:PhysicalDistributionNetworks name="networks" id="59"/>
+<ArchiMate:PhysicalFacilities name="facilities" id="60"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:PhysicalScheme>
+<ArchiMate:StrategyScheme id="13">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Strategy elements</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:StrategyCoursesOfAction name="courses" id="65"/>
+<ArchiMate:StrategyCapabilities name="capabilities" id="64"/>
+<ArchiMate:StrategyValueStreams name="streams" id="76"/>
+<ArchiMate:StrategyResources name="resources" id="63"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:StrategyScheme>
+<ArchiMate:MotivationScheme id="14">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Motivation elements</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:MotivationElements name="motivations" id="66">
+<ArchiMate:RSControlMeasure id="119">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Control measure</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:RSControlMeasure>
+</ArchiMate:MotivationElements>
+<ArchiMate:MotivationStakeholders name="stakeholders" id="67"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:MotivationScheme>
+<ArchiMate:IMScheme id="15">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Implementation and migration elements</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:IMPlateaus name="plateaus" id="71"/>
+<ArchiMate:IMGaps name="gaps" id="72"/>
+<ArchiMate:IMImplementationEvents name="events" id="69"/>
+<ArchiMate:IMDeliverables name="deliverables" id="70"/>
+<ArchiMate:IMWorkpackages name="workpackages" id="68"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:IMScheme>
+<ArchiMate:CompositeScheme id="16">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Composite elements</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:CompositeLocations name="locations" id="74"/>
+<ArchiMate:CompositeGroupings name="groupings" id="73"/>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:CompositeScheme>
+</ArchiMate:AbstractSchemes>
+<ArchiMate:AbstractViews name="views" id="17"/>
+<ArchiMate:AbstractFolders name="folders" id="18">
+<ArchiMate:AbstractFolder id="19">
+<nm>Views</nm>
+<ArchiMate:AbstractSchemes name="schemes" id="20"/>
+<ArchiMate:AbstractViews name="views" id="21">
+<ArchiMate:AllView id="22">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Total view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="123">
+<ArchiMate:BusinessRoleRef id="81" to="116"/>
+<ArchiMate:BusinessRoleRef id="86" to="115"/>
+<ArchiMate:BusinessFunctionMotivationRequirementInfluenceRef id="105" to="118"/>
+<ArchiMate:RSControlMeasureRef id="100" to="119"/>
+<ArchiMate:BusinessInterfaceMotivationRequirementInfluenceRef id="112" to="120"/>
+<ArchiMate:BusinessFunctionRef id="93" to="114"/>
+<ArchiMate:BusinessRoleBusinessRoleTriggeringRef id="91" to="122"/>
+<ArchiMate:BusinessRoleBusinessFunctionFlowRef id="98" to="121"/>
+<ArchiMate:BusinessInterfaceRef id="107" to="113"/>
+</ArchiMate:RefObjects>
+</ArchiMate:AllView>
+</ArchiMate:AbstractViews>
+<ArchiMate:AbstractFolders name="folders" id="23"/>
+</ArchiMate:AbstractFolder>
+</ArchiMate:AbstractFolders>
+</ArchiMate:ArchiMateComponent>
+</MM_ModelPackage:MM_Module>
+</MM_ModelPackage:MM_Modules>
+<Any name="taggedValues"><Structure><String name="createdBy">Enterprise Studio 3.0.4</String></Structure></Any>
+</ArchiMate:ArchiMateMM_Model>
+</MM_ModelPackage:MM_Models>
+<MM_ModelPackage:DependencyRelations name="dependencyRelations" id="77"/>
+<MM_ModelPackage:MM_Languages name="languages" id="27">
+<MM_ModelPackage:MM_Language id="28" isDefault="true">
+<nm>en</nm>
+</MM_ModelPackage:MM_Language>
+</MM_ModelPackage:MM_Languages>
+<MM_ModelPackage:MM_Users name="users" id="29">
+<MM_ModelPackage:MM_User id="78">
+<nm>lab6m2\administrador</nm>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="22" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+</MM_ModelPackage:MM_User>
+</MM_ModelPackage:MM_Users>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Enterprise Studio 3.0.4</String></Structure></Any>
+</MM_ModelPackage:MM_ModelPackage>
+</MM_StorageUnit>
+</MM_Document>
