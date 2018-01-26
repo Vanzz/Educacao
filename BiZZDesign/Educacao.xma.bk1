@@ -13,6 +13,47 @@
 <MM_ModelPackage:MM_Module id="24" nm="GraphicalModule" metaModel="MM_Diagram">
 <MM_Diagram:MM_Diagram name="root" id="25">
 <MM_Diagram:MM_Node name="mm_canvas" id="26" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="22">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="79">
+<MM_Diagram:MM_Node id="80" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="81">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="82">
+<MM_Diagram:MM_Decoration id="83" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="84" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="85" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="86">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="87">
+<MM_Diagram:MM_Decoration id="88" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="89" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1120" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="90" mm_from="80" mm_to="85" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessRoleBusinessRoleTriggering" mm_semanticObject="91"/>
+<MM_Diagram:MM_Node id="92" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="93">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="94">
+<MM_Diagram:MM_Decoration id="95" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="96" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="97" mm_from="85" mm_to="92" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessRoleBusinessFunctionFlow" mm_semanticObject="98"/>
+<MM_Diagram:MM_Node id="99" mm_graphicType="5" mm_concept="RSControlMeasure" mm_semanticObject="100">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="101">
+<MM_Diagram:MM_Decoration id="102" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="103" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2120" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="104" mm_from="92" mm_to="99" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessFunctionMotivationRequirementInfluence" mm_semanticObject="105"/>
+<MM_Diagram:MM_Node id="106" mm_graphicType="5" mm_concept="BusinessInterface" mm_semanticObject="107">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="108">
+<MM_Diagram:MM_Decoration id="109" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="110" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2620" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="111" mm_from="106" mm_to="99" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessInterfaceMotivationRequirementInfluence" mm_semanticObject="112"/>
+</MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
 </MM_Diagram:MM_Diagram>
@@ -33,14 +74,43 @@
 <ArchiMate:BusinessObjects name="objects" id="38"/>
 <ArchiMate:BusinessProcesses name="processes" id="34"/>
 <ArchiMate:BusinessServices name="services" id="36"/>
-<ArchiMate:BusinessInterfaces name="interfaces" id="32"/>
-<ArchiMate:BusinessFunctions name="functions" id="33"/>
+<ArchiMate:BusinessInterfaces name="interfaces" id="32">
+<ArchiMate:BusinessInterface id="113">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business interface</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessInterface>
+</ArchiMate:BusinessInterfaces>
+<ArchiMate:BusinessFunctions name="functions" id="33">
+<ArchiMate:BusinessFunction id="114">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business function</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+</ArchiMate:BusinessFunctions>
 <ArchiMate:BusinessEvents name="events" id="37"/>
 <ArchiMate:BusinessProducts name="products" id="40"/>
 <ArchiMate:BusinessActors name="actors" id="30"/>
 <ArchiMate:BusinessInteractions name="interactions" id="35"/>
-<ArchiMate:BusinessRoles name="roles" id="31"/>
+<ArchiMate:BusinessRoles name="roles" id="31">
+<ArchiMate:BusinessRole id="115">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business role (2)</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="116">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business role</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+</ArchiMate:BusinessRoles>
 <ArchiMate:BusinessRepresentations name="representations" id="39"/>
+<ArchiMate:Relations name="relations" id="117">
+<ArchiMate:BusinessFunctionMotivationRequirementInfluence id="118" from="114" to="119"/>
+<ArchiMate:BusinessInterfaceMotivationRequirementInfluence id="120" from="113" to="119"/>
+<ArchiMate:BusinessRoleBusinessFunctionFlow id="121" from="115" to="114"/>
+<ArchiMate:BusinessRoleBusinessRoleTriggering id="122" from="116" to="115"/>
+</ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:BusinessScheme>
 <ArchiMate:ApplicationScheme id="10">
@@ -97,7 +167,13 @@
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Motivation elements</MM_Value>
 </MM_ProfileValues>
-<ArchiMate:MotivationElements name="motivations" id="66"/>
+<ArchiMate:MotivationElements name="motivations" id="66">
+<ArchiMate:RSControlMeasure id="119">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Control measure</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:RSControlMeasure>
+</ArchiMate:MotivationElements>
 <ArchiMate:MotivationStakeholders name="stakeholders" id="67"/>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:MotivationScheme>
@@ -131,6 +207,17 @@
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Total view</MM_Value>
 </MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="123">
+<ArchiMate:BusinessRoleRef id="81" to="116"/>
+<ArchiMate:BusinessRoleRef id="86" to="115"/>
+<ArchiMate:BusinessFunctionMotivationRequirementInfluenceRef id="105" to="118"/>
+<ArchiMate:RSControlMeasureRef id="100" to="119"/>
+<ArchiMate:BusinessInterfaceMotivationRequirementInfluenceRef id="112" to="120"/>
+<ArchiMate:BusinessFunctionRef id="93" to="114"/>
+<ArchiMate:BusinessRoleBusinessRoleTriggeringRef id="91" to="122"/>
+<ArchiMate:BusinessRoleBusinessFunctionFlowRef id="98" to="121"/>
+<ArchiMate:BusinessInterfaceRef id="107" to="113"/>
+</ArchiMate:RefObjects>
 </ArchiMate:AllView>
 </ArchiMate:AbstractViews>
 <ArchiMate:AbstractFolders name="folders" id="23"/>

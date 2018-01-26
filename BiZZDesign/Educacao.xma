@@ -53,6 +53,13 @@
 <MM_Rect name="mm_rect" x="2620" y="140" w="400" h="160"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="111" mm_from="106" mm_to="99" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessInterfaceMotivationRequirementInfluence" mm_semanticObject="112"/>
+<MM_Diagram:MM_Node id="124" mm_graphicType="5" mm_concept="RSLossEvent" mm_semanticObject="125">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="126">
+<MM_Diagram:MM_Decoration id="127" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="128" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1900" y="960" w="400" h="160"/>
+</MM_Diagram:MM_Node>
 </MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
@@ -88,7 +95,13 @@
 </MM_ProfileValues>
 </ArchiMate:BusinessFunction>
 </ArchiMate:BusinessFunctions>
-<ArchiMate:BusinessEvents name="events" id="37"/>
+<ArchiMate:BusinessEvents name="events" id="37">
+<ArchiMate:RSLossEvent id="129">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Loss event</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:RSLossEvent>
+</ArchiMate:BusinessEvents>
 <ArchiMate:BusinessProducts name="products" id="40"/>
 <ArchiMate:BusinessActors name="actors" id="30"/>
 <ArchiMate:BusinessInteractions name="interactions" id="35"/>
@@ -210,13 +223,14 @@
 <ArchiMate:RefObjects name="refObjects" id="123">
 <ArchiMate:BusinessRoleRef id="81" to="116"/>
 <ArchiMate:BusinessRoleRef id="86" to="115"/>
-<ArchiMate:BusinessFunctionMotivationRequirementInfluenceRef id="105" to="118"/>
-<ArchiMate:RSControlMeasureRef id="100" to="119"/>
-<ArchiMate:BusinessInterfaceMotivationRequirementInfluenceRef id="112" to="120"/>
-<ArchiMate:BusinessFunctionRef id="93" to="114"/>
 <ArchiMate:BusinessRoleBusinessRoleTriggeringRef id="91" to="122"/>
+<ArchiMate:BusinessFunctionRef id="93" to="114"/>
 <ArchiMate:BusinessRoleBusinessFunctionFlowRef id="98" to="121"/>
+<ArchiMate:RSControlMeasureRef id="100" to="119"/>
+<ArchiMate:BusinessFunctionMotivationRequirementInfluenceRef id="105" to="118"/>
 <ArchiMate:BusinessInterfaceRef id="107" to="113"/>
+<ArchiMate:BusinessInterfaceMotivationRequirementInfluenceRef id="112" to="120"/>
+<ArchiMate:RSLossEventRef id="125" to="129"/>
 </ArchiMate:RefObjects>
 </ArchiMate:AllView>
 </ArchiMate:AbstractViews>
@@ -238,6 +252,10 @@
 <MM_ModelPackage:MM_Users name="users" id="29">
 <MM_ModelPackage:MM_User id="78">
 <nm>lab6m2\administrador</nm>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="22" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+</MM_ModelPackage:MM_User>
+<MM_ModelPackage:MM_User id="130">
+<nm>lab6m3\administrador</nm>
 <Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="22" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 </MM_ModelPackage:MM_Users>
