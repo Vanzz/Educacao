@@ -105,7 +105,7 @@
     <element xsi:type="archimate:BusinessRole" name="Equipe docente" id="ccab0869-493d-40a8-8d07-d9a21e738d94"/>
     <element xsi:type="archimate:BusinessRole" name="Equipe dos funcionários" id="55dd733a-7bec-4255-8c8f-d2295c2722a7"/>
     <element xsi:type="archimate:BusinessRole" name="Diretor" id="103c86cf-6029-4ca0-89a4-23b2faa1dd82"/>
-    <element xsi:type="archimate:BusinessActor" name="Professores" id="164b874c-b1de-4cee-a870-7c63eac45f6e"/>
+    <element xsi:type="archimate:BusinessActor" name="Teste" id="164b874c-b1de-4cee-a870-7c63eac45f6e"/>
     <element xsi:type="archimate:BusinessActor" name="Diretor" id="3561bcea-85e1-4b7d-a118-cdec345f21cc"/>
     <element xsi:type="archimate:BusinessActor" name="Funcionários" id="368ea11b-c623-404e-ae26-50f34b177370"/>
     <element xsi:type="archimate:BusinessFunction" name="Deliberar" id="b893d131-c6f2-4dac-a722-6c0aa47641a6"/>
