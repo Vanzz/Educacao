@@ -1,0 +1,51 @@
+1) Definição de Níveis de maturidade utilizando o BPM (CBOK) (Elaborar um questionário para aplicar em algumas empresas e posteriormente definir os níveis de maturidade) - Priscila
+
+2) Simulação e Automação dos processos utilizando um estudo de caso
+
+3) Tomada de decisões automatizadas
+
+4) Automação de uma cidade inteligente com IoT (Curso CISCO com 10 horas)  furlan - 
+
+5) Archimate com Cloud Computing em cidades inteligentes
+
+6) BI/BIG DATA versus BPM com um estudo de caso educação (tem uma base de dados pronta de 30.000) praxd
+
+7) Modelagem de uma Infraestrutura de TI com o Archimate *tranquilidade
+
+8) Arquiteturas Ágeis visando Cidades Inteligentes
+
+9) Desenvolvimento de um aplicativo para educação visando cidades inteligentes * hackathon 
+
+10) Governança em TIC com COBIT e ITIL - próximo golden boy do sergio
+
+11) Frameworks para Governança Corporativa - zé
+
+12) Gerência de Projetos versus Migração e Implantação do TOGAF - boi
+
+13) Metodologias Ágeis
+
+14) Modelagem de um Projeto de Redes de Computadores com a Linguagem Archimate
+
+15) Arquitetura 5G visando Cidades Inteligentes
+
+16) Estudo da UML versus BPMN e o Archimate utilizando um estudo de caso
+
+17) Aplicação do Archimate e o TOGAF visando cidades inteligentes
+
+18) Estudo de cidades inteligentes
+
+19) Governança Corporativa versus Cidades Inteligentes
+
+20) Criaçao de um jogo para utilização do Archimate visando cidades inteligentes - estágio
+
+21) Sistema para utilização do Archimate (questionário)
+
+22) Aplicação do TOGAF utilizando um estudo de caso
+
+23) Relação de Frameworks para Governança versus cidades inteligentes
+
+24) Atores e Papeis em sociedade através de metodologias ágeis visando cidades inteligentes
+
+25) Monitoramento de pessoas através de redes sociais
+
+26) Implementação de QR CODE para educação visando cidades inteligentes
